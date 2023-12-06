@@ -1,5 +1,4 @@
 # VESM3-David-Kristinn
-nfc
 
 keypad - hljóð
 

@@ -1,9 +1,0 @@
-{% extends "base_admin.html" %}
-
-{% block admincontent %}
-<form action="/admin/createcategory" method="POST" onsubmit="return confirm('Are you sure you want to create the category?');">
-    <label>New Category:</label>
-    <input type="text" name="category" required><br>
-    <input class="button-primary" type="submit" value="Create">
-</form>
-{% endblock %}

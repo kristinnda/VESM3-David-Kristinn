@@ -37,7 +37,7 @@ https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/8e8f2d2b-a99
 
 ## Heimildir
 
-Keypad kóði - https://github.com/kevinmcaleer/keypad/
-OpenCV - https://docs.opencv.org/4.x/d0/de3/tutorial_py_intro.html
-Firebase - https://firebase.google.com/
+Keypad kóði - https://github.com/kevinmcaleer/keypad/  
+OpenCV - https://docs.opencv.org/4.x/d0/de3/tutorial_py_intro.html  
+Firebase - https://firebase.google.com/  
 Pyrebase - https://github.com/thisbejim/Pyrebase

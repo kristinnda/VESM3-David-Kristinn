@@ -41,6 +41,15 @@ https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/8e8f2d2b-a99
 
 <img width="594" alt="image" src="https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/644ba817-7d07-49ae-8a8a-531ce2dda67d">
 
+### Diagram
+
+<img src="diagram.png" width="50%">
+
+## Kóðalinkar
+- [app.py - vefsíða module](app.py)
+- [broker.py - server app](broker.py)
+- [main.py - telemetry/esp/keypad/lcd](main.py)
+- [Actuator.py - actuator/raspberry pi/servo/camera](Actuator.py)
 
 ## Heimildir
 

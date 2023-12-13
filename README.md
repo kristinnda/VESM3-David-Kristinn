@@ -27,5 +27,10 @@ Ef lykilorðið er rétt, sendir tölvan á Raspberry Pi að opna hurðina. Töl
 Svo var bætt við á vefsíðuna takki sem opnar hurðina þegar ýtt er á takkann.  
 Vefsíðan var keyrt á einni tölvu og broker-inn á annari. Við ákvöðum að keyra bæði forritin á sama tölvu þannig að við sameinuðum kóðann.
 
+## Myndband
+
+https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/8e8f2d2b-a997-47e9-b7c2-4b86c2393e5c
+
 ## Heimildir
+
 Keypad kóði - https://github.com/kevinmcaleer/keypad/

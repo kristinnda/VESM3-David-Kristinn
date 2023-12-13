@@ -3,7 +3,7 @@
 
 
 ## Verkefnalýsing
-Verkefnið snýr um að nota keypad til að opna hurð. Ef rétta fjögurra-tölustafa lykilorðið er slað inn mun hurðinn opnast í smá stund. Ef vitlausa lykilorðið er sláð inn verður sent tilkynningu með IFTTT og mynd verður tekin af einstaklinginum sem er hægt að skoða á vefsíðu. Vefsíðan inniheldur mynd af öllum "intruders", sorterað frá nýjasta til elsta.
+Verkefnið snýr um að nota keypad til að opna hurð. Ef rétta fjögurra-tölustafa lykilorðið er slað inn mun hurðinn opnast í smá stund. Ef vitlausa lykilorðið er sláð inn verður sent tilkynningu með IFTTT og mynd verður tekin af einstaklinginum sem er hægt að skoða á vefsíðu. Vefsíðan inniheldur mynd af öllum "intruders", sorterað frá nýjasta til elsta og þú getur opnað hurðinna á vefsíðunni.
 
 ## Efnislisti
 - 1x ESP32

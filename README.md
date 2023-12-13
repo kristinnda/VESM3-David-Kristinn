@@ -31,9 +31,9 @@ Vefsíðan var keyrt á einni tölvu og broker-inn á annari. Við ákvöðum a�
 
 https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/8e8f2d2b-a997-47e9-b7c2-4b86c2393e5c
 
-![actuator](https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/0eaee90c-e014-4ab5-bbd3-a507e96f99bf)
+<img src="https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/0eaee90c-e014-4ab5-bbd3-a507e96f99bf" width="50%">
 
-![telemetry](https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/0c611e0a-267a-4ab1-b0de-7788ab2f8cf3)
+<img src="https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/0c611e0a-267a-4ab1-b0de-7788ab2f8cf3" width="50%">
 
 ## Heimildir
 

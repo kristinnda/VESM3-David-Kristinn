@@ -1,18 +1,15 @@
 # Þessi kóði er á Tölvunni
-from flask import Flask, flash, render_template, redirect, url_for, session, request, abort
-from flask_ckeditor import CKEditor
+from flask import Flask, flash, render_template, request
 import pyrebase
 from datetime import datetime
 from waitress import serve
 import paho.mqtt.client as mqtt
 
-ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'webp'}
-
 app = Flask(__name__)
-ckeditor = CKEditor(app)
 
 app.config['SECRET_KEY'] = 'leyni'
 app.config['UPLOAD_FOLDER'] = "tempstorage"
+# Stilla upp Firebase
 config = {
     "apiKey": "AIzaSyCVXBVchfY5JcMCkOPP7uAqfD9xNhcLrXs",
     "authDomain": "verkefni4-1dbbd.firebaseapp.com",
@@ -41,26 +38,9 @@ def getIntruders():
     betterIntruders = [x for x in betterIntruders[::-1]]
     return betterIntruders
 
-
 def fromUnixToDate(unoTime):
     unoTime = int(round(float(unoTime)))
     return datetime.utcfromtimestamp(unoTime).strftime('%Y-%m-%d %H:%M:%S')
-
-def toIcelandicTime(time):
-    day = time.day
-    month = time.month
-    year = time.year
-    hour = time.hour
-    minute = time.minute
-    second = time.second
-    if hour < 10:
-        hour = "0" + str(hour)
-    if minute < 10:
-        minute = "0" + str(minute)
-    if second < 10:
-        second = "0" + str(second)
-    return f"{day}.{month}.{year} {hour}:{minute}:{second}"
-
 
 @app.errorhandler(404)
 def page_not_found(errorcode):

@@ -55,6 +55,7 @@ Myndavél tengd við RaspberryPi líka
 - [broker.py - server app](broker.py)
 - [main.py - telemetry/esp/keypad/lcd](main.py)
 - [Actuator.py - actuator/raspberry pi/servo/camera](Actuator.py)
+- [HTML Templates](Templates)
 
 ## Heimildir
 

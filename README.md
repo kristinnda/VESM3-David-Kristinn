@@ -29,7 +29,7 @@ Vefsíðan var keyrt á einni tölvu og broker-inn á annari. Við ákvöðum a�
 
 ## Myndir og myndband
 
-### Irl type beat
+### Notkun, virkni og samsetning
 
 https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/8e8f2d2b-a997-47e9-b7c2-4b86c2393e5c
 
@@ -40,6 +40,11 @@ https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/8e8f2d2b-a99
 ### Rafrásarteikning
 
 <img width="594" alt="image" src="https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/644ba817-7d07-49ae-8a8a-531ce2dda67d">
+
+<img width="476" alt="image" src="https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/190a7866-d31a-4fb0-a093-32d4b298e802">
+
+Myndavél tengd við RaspberryPi líka
+
 
 ### Diagram
 

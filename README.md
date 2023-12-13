@@ -17,3 +17,9 @@ Verkefnið snýr um að nota keypad til að opna hurð. Ef rétta fjögurra-töl
 - 1x LCD
 - 1x Buzzer
 - Marga víra
+
+## Framkvæmd
+Kristinn tók að sér það verkefni að hanna hurð og dyragætt sem var svo 3D-printað. Verkefnið byrjaði svo með því að skipta up hlutverkum: Kristinn vann að því að stilla upp keypad með ESP og allt tengt telemetry-ið, og Davíð vann að því að gera vefsíðu og að láta USB myndavél virka með Raspberry Pi. Kristinn vann svo að stilla upp broker til að taka inn telemetry gögnin. Davíð var að klára að láta myndavélina virka og vann svo að láta Raspberry Pi opna hurðina sem við höfum. Svo bætti Kristinn við LCD skjá hjá keypad til að birta gögn (eins og hvaða lykilorð þú ert að slá inn).  
+Við tengdum svo tækin saman þannig að þegar keypad (telemetry) tekur inn inntak (0-9) og "senda" takkinn er ýtt á hjá honum, þá sendir hann gögnin með MQTT. Fartalva, sem er subscriber og broker, tekur á móti gögnin og ber þau við rétta lykilorðið. Ef lykilorðið er rétt, sendir tölvan á Raspberry Pi að opna hurðina, sem gerist. Tölvan sendir líka á ESPinn (sá sem er með keypad) að birta "rett lykilord" á LCD skjáinn.
+
+## Heimildir

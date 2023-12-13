@@ -61,6 +61,6 @@ Myndavél tengd við RaspberryPi líka
 Keypad kóði - https://github.com/kevinmcaleer/keypad/  
 OpenCV - https://docs.opencv.org/4.x/d0/de3/tutorial_py_intro.html  
 Firebase - https://firebase.google.com/  
-Pyrebase - https://github.com/thisbejim/Pyrebase
-i2c lcd - https://github.com/brainelectronics/micropython-i2c-lcd
+Pyrebase - https://github.com/thisbejim/Pyrebase  
+i2c lcd - https://github.com/brainelectronics/micropython-i2c-lcd  
 gpiozero.AngularServo - https://gpiozero.readthedocs.io/en/stable/api_output.html?highlight=angular#gpiozero.AngularServo

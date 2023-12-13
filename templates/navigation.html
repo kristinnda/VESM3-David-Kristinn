@@ -1,0 +1,32 @@
+<nav>
+    <div class="navbar">
+      <div class="container nav-container">
+          <input class="checkbox" type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>  
+        <div class="logo">
+          <h1>Navbar</h1>
+        </div>
+        <div class="menu-items">
+            {% for category in validCategories %}
+                <li>
+                    <a href="{{url_for('category', categoryName=category)}}">
+                        {{category}}
+                    </a>
+                </li>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </nav>
+<nav>
+    <a href="{{url_for('home')}}">
+        <label>Home</label>
+    </a>
+    <a href="{{url_for('login')}}">
+        <label>Login</label>
+    </a>
+</nav>

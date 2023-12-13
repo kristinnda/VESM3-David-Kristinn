@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/barebones.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/normalize.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+    <title>Animals</title>
+</head>
+<body>
+{% include 'header.html' %}
+<main>
+    <div class="contentwrapper">
+    {% block content %}
+    {% endblock %}
+    </div class="contentwrapper">
+</main>
+{% include 'footer.html' %}
+</body>
+</html>

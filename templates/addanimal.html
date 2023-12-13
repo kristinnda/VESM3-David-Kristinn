@@ -1,0 +1,21 @@
+{% extends "admin.html" %}
+
+{% block admincontent %}
+{{ckeditor.load()}}
+<form action="/admin/add" method="POST" enctype=multipart/form-data onsubmit="return confirm('Are you sure you want to submit?');">
+    <label>Category:</label>
+    <select name="category">
+        {% for v in validCategories %}
+        <option value="{{v}}">{{v}}</option>
+        {% endfor %}
+    </select>
+    <label>Breed:</label>
+    <input type="text" name="breed" required minlength="1"><br>
+    <label>Description:</label>
+    {{ckeditor.create()}}
+    <label>Image:</label>
+    <input type=file name="image" required>
+    <br>
+    <input class="button-primary" type="submit" value="Add">
+</form>
+{% endblock %}

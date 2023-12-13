@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="POST" enctype=multipart/form-data>
+<input type="text" name="baller" style="display: none;">
+<input class="button-primary" type="submit" value="Sesam opnist þu">
+</form>
+<h2>Overview</h2>
+{% include "module_displayintruders.html" %}
+{% endblock %}

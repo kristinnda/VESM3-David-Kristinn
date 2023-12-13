@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="adminnav">
+        <a href="{{url_for('admin')}}"><label>Overview</label></a>
+        <a href="{{url_for('add_animal')}}"><label>Add a new animal</label></a>
+        <a href="{{url_for('create_category')}}"><label>Create new category</label></a>
+    </div>
+    <h2>Dashboard</h2>
+    {% block admincontent %}
+    {% endblock %}
+{% endblock %}

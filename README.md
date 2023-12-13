@@ -30,7 +30,9 @@ Vefsíðan var keyrt á einni tölvu og broker-inn á annari. Við ákvöðum a�
 ## Myndir og myndband
 
 https://github.com/kristinnda/VESM3-David-Kristinn/assets/117902286/8e8f2d2b-a997-47e9-b7c2-4b86c2393e5c
+
 https://cdn.discordapp.com/attachments/1023977834164785264/1184509149166448640/IMG_5923.jpg?ex=658c3b1c&is=6579c61c&hm=3c3cadd98fc391bdf954539ac5c69aef2d2cae0e62192ef1d131b8b6ec13ac6d&
+
 https://cdn.discordapp.com/attachments/1023977834164785264/1184509149992714240/IMG_5925.jpg?ex=658c3b1c&is=6579c61c&hm=3cae71c877abfa9e94c1265b54cee25f22794f02eb968274bc79ceb82bae896c&
 
 ## Heimildir
